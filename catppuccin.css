@@ -130,6 +130,10 @@
   background: var(--ctp-surface0);
 }
 
+.theme-default .ui__header .button {
+ background: var(--ctp-blue); 
+}
+
 .theme-default .account__header__bio .account__header__fields dl,
 .theme-default .account__header__bio .account__header__fields,
 .theme-default .empty-column-indicator,
@@ -203,21 +207,6 @@
 .theme-default .icon-button.bookmark-icon.active {
   color: var(--ctp-green);
 }
-
-.status__action-bar-button.icon-button:nth-child(1):hover,
-.status__action-bar-button.icon-button:nth-child(1):active,
-.status__action-bar-button.icon-button:nth-child(1).active,
-.status__action-bar-button.icon-button:nth-child(1):focus,
-.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:hover,
-.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:active,
-.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button.active,
-.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:focus,
-.notification__message .fa.fa-user-plus,
-.account .icon-button:active,
-.account .icon-button.active,
-.account .icon-button:focus,
-.account .icon-button:hover
-{color: #0bf;}
 
 .theme-default .drawer__header,
 .theme-default .drawer__inner { border: none; }
