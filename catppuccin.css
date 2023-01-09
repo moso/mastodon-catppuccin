@@ -1,0 +1,125 @@
+.theme-default body,
+.theme-default html,
+.theme-default .columns-area__panels,
+.theme-default .columns-area__panels__main {
+  background: #1e1e2e !important;
+}
+
+.theme-default .search__input {
+  background-color: #343f51;
+}
+
+.theme-default .search-results {
+  background-color: #182a3c;
+}
+
+.theme-default .landing-page__forms,
+.theme-default .public-layout .header,
+.theme-default .public-layout .footer,
+.theme-default .navigation-panel__logo > a,
+.theme-default .navigation-panel > a,
+.theme-default .list-panel > a,
+.theme-default .getting-started__wrapper,
+.theme-default .getting-started__wrapper > a,
+.theme-default .conversation.focusable.muted.conversation--unread {
+     background-color: #313244;
+}
+
+.theme-default .landing-page__call-to-action,
+.theme-default .detailed-status {
+  background-color: #313244;
+}
+
+.theme-default .public-layout {
+  margin-top: -10px;
+}
+
+.theme-default .public-layout .header {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.theme-default .public-layout .footer {
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.theme-default .account__section-headline,
+.theme-default .column-header__back-button,
+.theme-default .column-subheading {
+  background-color: #45475a !important;
+}
+
+.theme-default .status-link {
+  color: #73a9d1 !important;
+}
+
+.theme-default .account__header > div {
+  background: rgba(27, 42, 69, 0.9);
+}
+
+.theme-default .account__header .account__header__fields dt,
+.theme-default .public-account-bio .account__header__fields dt,
+.theme-default .column-header,
+.theme-default .column-header__button,
+.theme-default .column-back-button,
+.theme-default .hero-widget__text,
+.theme-default .status.status-direct:not(.read) {
+  background-color: #45475a;
+}
+
+.theme-default .account__header .account__header__fields dd,
+.theme-default .public-account-bio .account__header__fields dd,
+.theme-default .drawer__inner,
+.theme-default .drawer__inner__mastodon {
+  background-color: #313244;
+}
+
+
+.theme-default .column {
+  background-color: transparent;
+  opacity: 0.95;
+}
+
+.theme-default article,
+.theme-default .status-public,
+.theme-default .activity-stream .entry,
+.theme-default .column > .scrollable,
+  .drawer__header, .landing-page__information {
+  background-color: #313244
+}
+
+.theme-default .column-link {
+  color:#8ba9c7;
+  background-color:#1e2a3e;
+}
+
+.theme-default .column-link:hover {
+  background-color: #21314b;
+}
+
+.theme-default .status-reply {
+  background-color: #313244;
+}
+
+.theme-default .detailed-status__action-bar {
+  background-color:#1c2d49;
+}
+
+.theme-default .getting-started,
+.theme-default .public-layout .public-account-bio {
+  background-color: #002b55;
+}
+
+.theme-default .column-subheading,
+.theme-default .search-results__header,
+.theme-default .search-results__section h5 {
+  background-color: #002549;
+  color: #7398bc;
+}
+
+.theme-default .drawer__inner,
+.theme-default .drawer__inner__mastodon {
+  opacity: 0.95;
+}
