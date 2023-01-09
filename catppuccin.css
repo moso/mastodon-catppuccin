@@ -37,7 +37,8 @@
 
 
 .theme-default body,
-  .admin-wrapper .sidebar-wrapper__inner {
+.theme-default .admin-wrapper,
+.theme-default .admin-wrapper .sidebar-wrapper__inner {
     background: var(--ctp-crust);
     color: var(--ctp-text);
 }
