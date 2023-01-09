@@ -229,13 +229,13 @@
 .theme-default .compose-form .spoiler-input__input,
 .theme-default .column-link,
 .theme-default .compose-form__publish-button-wrapper .button {
-  background: var(--ctp-surface1);
+  background: var(--ctp-blue);
   color: var(--ctp-text);
 }
 
 .theme-default .compose-form .autosuggest-textarea__textarea::placeholder { color: var(--ctp-subtext0); }
 .theme-default .compose-form .compose-form__buttons-wrapper {
-  background: var(--ctp-blue);
+  background: var(--ctp-surface0);
 }
 
 
