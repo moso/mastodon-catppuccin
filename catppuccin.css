@@ -130,7 +130,9 @@
 .theme-default .hero-widget__text,
 .theme-default body.admin,
 .theme-default .admin-wrapper .sidebar ul a.selected,
-.theme-default .admin-wrapper .sidebar ul ul {
+.theme-default .admin-wrapper .sidebar ul ul,
+.theme-default .detailed-status,
+.theme-default .detailed-status__action-bar {
   border-color: var(--ctp-mantle);
   background: var(--ctp-base);
 }
