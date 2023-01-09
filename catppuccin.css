@@ -195,3 +195,45 @@
 .theme-default .public-layout .public-account-header__tabs__tabs .counter.active::after {
   border-color: #f0c6c6;
 }
+.theme-default .ui__header,
+.theme-default .column-header,
+.theme-default .column-header__button,
+.theme-default .column-header__back-button,
+.theme-default .column-back-button,
+.theme-default .drawer__header,
+.theme-default .account__section-headline,
+.theme-default .notification__filter-bar,
+.theme-default .account__section-headline button,
+.theme-default .notification__filter-bar button,
+.theme-default .account__header,
+.theme-default .search__input,
+.theme-default .search__input:focus,
+.theme-default .column-link__badge,
+.theme-default .column-subheading,
+.theme-default .public-layout .header,
+.theme-default .public-layout .public-account-header__bar::before,
+.theme-default .account__header__fields,
+.theme-default .account__header__fields dt,
+.theme-default .account__header__fields dd:not(.account__header__bio .account__header__fields dd),
+.theme-default .focusable:focus,
+.theme-default .admin-wrapper .sidebar ul a:hover,
+.theme-default .admin-wrapper .sidebar ul .simple-navigation-active-leaf .selected,
+.theme-default .admin-wrapper .sidebar ul .simple-navigation-active-leaf a:hover {
+    border-color: #1e2030;
+    background: #363a4f;
+}
+.theme-default .account__header__bar,
+.theme-default .column-header__back-button,
+.theme-default .account__header__bio .account__header__fields dl,
+.theme-default .account__header__bio .account__header__fields,
+.theme-default .empty-column-indicator,
+.theme-default .column > .scrollable,
+.theme-default .nothing-here,
+.theme-default .public-layout .public-account-bio,
+.theme-default .hero-widget__text,
+.theme-default body.admin,
+.theme-default .admin-wrapper .sidebar ul a.selected,
+.theme-default .admin-wrapper .sidebar ul ul {
+    border-color: #1e2030;
+    background: #24273a;
+}
