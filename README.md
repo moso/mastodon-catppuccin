@@ -1,2 +1,2 @@
 # mastodon-catppuccin
-A dark catppuccin theme for Mastodon
+A work-in-progress dark catppuccin theme for my Mastodon instance, https://dmv.community.
