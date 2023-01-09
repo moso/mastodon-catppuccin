@@ -54,6 +54,7 @@
 .theme-default .column-subheading,
 .theme-default .account__display-name strong,
 .theme-default .status__display-name strong,
+.theme-default .reply-indicator__header a,
 .theme-default .notification__message,
 .theme-default .public-layout .public-account-bio .account__header__content,
 .theme-default .reply-indicator__content, .status__content { color: var(--ctp-text); }
@@ -87,13 +88,20 @@
 .theme-default .status__content a.unhandled-link { color: var(--ctp-link-colour); }
 
 
-.theme-default .icon-button:active, .icon-button:focus, .icon-button:hover,
-.theme-default .text-icon-button:active, .text-icon-button:focus, .text-icon-button:hover,
-.theme-default .icon-button.inverted:active, .icon-button.inverted:focus, .icon-button.inverted:hover,
+.theme-default .icon-button:active,
+.theme-default .icon-button:focus,
+.theme-default .icon-button:hover,
+.theme-default .text-icon-button:active,
+.theme-default .text-icon-button:focus,
+.theme-default .text-icon-button:hover,
+.theme-default .icon-button.inverted:active,
+.theme-default .icon-button.inverted:focus,
+.theme-default .icon-button.inverted:hover,
 .theme-default .public-layout .public-account-bio .account__header__fields a:hover { color: var(--ctp-link-hover); }
 
 
 .theme-default .ui__header,
+.theme-default .reply-indicator,
 .theme-default .column-header,
 .theme-default .column-header__button,
 .theme-default .column-header__back-button,
@@ -138,8 +146,12 @@
 }
 
 
-.theme-default .public-layout .public-account-header__tabs__tabs .counter::after { border-color: var(--ctp-link-colour); }
-.theme-default .public-layout .public-account-header__tabs__tabs .counter.active::after { border-color: var(--ctp-link-hover); }
+.theme-default .public-layout .public-account-header__tabs__tabs .counter::after {
+  border-color: var(--ctp-link-colour);
+}
+.theme-default .public-layout .public-account-header__tabs__tabs .counter.active::after {
+  border-color: var(--ctp-link-hover);
+}
 
 .theme-default .account,
 .theme-default .load-gap { border-color: var(--ctp-mantle); }
@@ -183,6 +195,29 @@
 .theme-default .button.logo-button:focus,
 .theme-default .button.logo-button:hover{ background: var(--ctp-link-hover); }
 
+.theme-default .icon-button.star-icon.active {
+  color: var(--ctp-peach);
+}
+
+.theme-default .icon-button.bookmark-icon.active {
+  color: var(--ctp-green);
+}
+
+.status__action-bar-button.icon-button:nth-child(1):hover,
+.status__action-bar-button.icon-button:nth-child(1):active,
+.status__action-bar-button.icon-button:nth-child(1).active,
+.status__action-bar-button.icon-button:nth-child(1):focus,
+.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:hover,
+.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:active,
+.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button.active,
+.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:focus,
+.notification__message .fa.fa-user-plus,
+.account .icon-button:active,
+.account .icon-button.active,
+.account .icon-button:focus,
+.account .icon-button:hover
+{color: #0bf;}
+
 .theme-default .drawer__header,
 .theme-default .drawer__inner { border: none; }
 
@@ -192,13 +227,16 @@
 .theme-default .compose-form .compose-form__modifiers,
 .theme-default .compose-form .autosuggest-textarea__textarea,
 .theme-default .compose-form .spoiler-input__input,
-.theme-default .column-link {
+.theme-default .column-link,
+.theme-default .compose-form__publish-button-wrapper .button {
   background: var(--ctp-surface1);
   color: var(--ctp-text);
 }
 
 .theme-default .compose-form .autosuggest-textarea__textarea::placeholder { color: var(--ctp-subtext0); }
-.theme-default .compose-form .compose-form__buttons-wrapper { background: var(--ctp-surface0); }
+.theme-default .compose-form .compose-form__buttons-wrapper {
+  background: var(--ctp-surface0);
+}
 
 
 .theme-default .load-more:hover { background-color: var(--ctp-mantle); }
