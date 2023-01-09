@@ -133,3 +133,7 @@
 .theme-default .account__header__fields dt {
   color: #a5adcb;
 }
+.theme-default body,
+.theme-default .admin-wrapper .sidebar-wrapper__inner {
+    color: #cad3f5;
+}
