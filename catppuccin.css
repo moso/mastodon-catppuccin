@@ -137,3 +137,20 @@
 .theme-default .admin-wrapper .sidebar-wrapper__inner {
     color: #cad3f5;
 }
+.theme-default .account__header__bio .account__header__fields dt,
+.theme-default .account__section-headline a.active,
+.theme-default .account__section-headline button.active,
+.theme-default .notification__filter-bar a.active,
+.theme-default .notification__filter-bar button.active,
+.theme-default .account__header__bio .account__header__content,
+.theme-default .navigation-bar,
+.theme-default .column-link__badge,
+.theme-default .column-subheading,
+.theme-default .account__display-name strong,
+.theme-default .status__display-name strong,
+.theme-default .notification__message,
+.theme-default .public-layout .public-account-bio .account__header__content,
+.theme-default .reply-indicator__content,
+.theme-default .status__content {
+  color: #cad3f5;
+}
