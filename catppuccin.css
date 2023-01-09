@@ -188,4 +188,10 @@
 .theme-default .button.logo-button {
     background: #f5e0dc;
     color: #181926;
-  }
+}
+.theme-default .public-layout .public-account-header__tabs__tabs .counter::after {
+  border-color: #f4dbd6;
+}
+.theme-default .public-layout .public-account-header__tabs__tabs .counter.active::after {
+  border-color: #f0c6c6;
+}
