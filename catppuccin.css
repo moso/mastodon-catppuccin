@@ -184,3 +184,8 @@
 .theme-default .public-layout .public-account-bio .account__header__fields a:hover {
   color: #f0c6c6;
 }
+.theme-default .button,
+.theme-default .button.logo-button {
+    background: #f5e0dc;
+    color: #181926;
+  }
