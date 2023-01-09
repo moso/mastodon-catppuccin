@@ -172,3 +172,15 @@
 .theme-default .status__content a.unhandled-link {
   color: #f4dbd6;
 }
+.theme-default .icon-button:active,
+.theme-default .icon-button:focus,
+.theme-default .icon-button:hover,
+.theme-default .text-icon-button:active,
+.theme-default .text-icon-button:focus,
+.theme-default .text-icon-button:hover,
+.theme-default .icon-button.inverted:active,
+.theme-default .icon-button.inverted:focus,
+.theme-default .icon-button.inverted:hover,
+.theme-default .public-layout .public-account-bio .account__header__fields a:hover {
+  color: #f0c6c6;
+}
