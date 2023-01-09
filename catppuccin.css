@@ -58,7 +58,8 @@
 .theme-default .reply-indicator__header a,
 .theme-default .notification__message,
 .theme-default .public-layout .public-account-bio .account__header__content,
-.theme-default .reply-indicator__content, .status__content { color: var(--ctp-text); }
+.theme-default .reply-indicator__content,
+.theme-default .status__content { color: var(--ctp-text); }
 
 
 .theme-default .account__header__tabs__name h1 small,
