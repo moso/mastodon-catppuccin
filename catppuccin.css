@@ -154,21 +154,21 @@
 .theme-default .status__content {
   color: #cad3f5;
 }
-.account__header__tabs__name h1,
-.account__header__content a,
-.account__header__bio .account__header__fields a,
-.empty-column-indicator a,
-.follow_requests-unlocked_explanation a,
-.column-back-button,
-.icon-button,
-.icon-button.inverted,
-.text-icon-button,
-.icon-button.active,
-.public-layout .public-account-bio .account__header__fields a,
-.column-header__back-button,
-.notification__message .fa,
-.navigation-bar strong,
-.reply-indicator__content a.unhandled-link,
-.status__content a.unhandled-link {
+.theme-default .account__header__tabs__name h1,
+.theme-default .account__header__content a,
+.theme-default .account__header__bio .account__header__fields a,
+.theme-default .empty-column-indicator a,
+.theme-default .follow_requests-unlocked_explanation a,
+.theme-default .column-back-button,
+.theme-default .icon-button,
+.theme-default .icon-button.inverted,
+.theme-default .text-icon-button,
+.theme-default .icon-button.active,
+.theme-default .public-layout .public-account-bio .account__header__fields a,
+.theme-default .column-header__back-button,
+.theme-default .notification__message .fa,
+.theme-default .navigation-bar strong,
+.theme-default .reply-indicator__content a.unhandled-link,
+.theme-default .status__content a.unhandled-link {
   color: #f4dbd6;
 }
