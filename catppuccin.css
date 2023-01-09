@@ -123,3 +123,13 @@
 .theme-default .drawer__inner__mastodon {
   opacity: 0.95;
 }
+.theme-default .account__header__tabs__name h1 small,
+.theme-default .account__header__bio .account__header__fields dd,
+.theme-default .empty-column-indicator,
+.theme-default .follow_requests-unlocked_explanation,
+.theme-default .account .account__display-name,
+.theme-default .search__input,
+.theme-default .search__input:focus,
+.theme-default .account__header__fields dt {
+  color: #a5adcb;
+}
