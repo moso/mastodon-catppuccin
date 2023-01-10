@@ -203,13 +203,6 @@
   background: var(--ctp-link-hover);
 }
 
-.theme-default .icon-button.retweet-icon.inactive {
-  color: var(--ctp-link-colour);
-}
-
-.theme-default .icon.button.retweet-icon.active {
-  color: var(--ctp-yellow);
-}
 
 .theme-default .icon-button.star-icon.active {
   color: var(--ctp-peach);
@@ -228,7 +221,7 @@
 .theme-default .compose-form .compose-form__modifiers,
 .theme-default .compose-form .autosuggest-textarea__textarea,
 .theme-default .compose-form .spoiler-input__input,
-.theme-default .column-link, {
+.theme-default .column-link {
   background: var(--ctp-surface1);
   color: var(--ctp-text);
 }
@@ -237,8 +230,12 @@
   background: var(--ctp-blue);
 }
 
-.theme-default .button--with-bell {
-  background: var(--ctp-surface1);
+.theme-default .account__header__tabs .button.logo-button {
+  background: var(--ctp-overlay0);
+}
+
+.theme-default .account__header__tabs__buttons .icon-button.active {
+  color: var(--ctp-green);
 }
 
 .theme-default .compose-form .autosuggest-textarea__textarea::placeholder { color: var(--ctp-subtext0); }
@@ -255,4 +252,27 @@
 .theme-default .public-layout .public-account-header,
 .theme-default .public-layout .public-account-bio,
 .theme-default .nothing-here { box-shadow: none; }
+
+/* boosts */
+button.icon-button i.fa-retweet,
+.notification__message .fa.fa-retweet,
+.icon-button:hover .fa-retweet
+{
+  filter: sepia(100%)
+        hue-rotate(110deg)
+        saturate(100%)
+        brightness(100%)
+        drop-shadow(0px 1px 0px rgba(0,0,0,0.6))
+}
+
+/* recolor boosts (preserve animation, unthemeable default state */
+
+/*button.icon-button:hover i.fa-retweet,*/
+.no-reduce-motion button.icon-button.active i.fa-retweet
+{
+    filter: sepia(100%)
+        hue-rotate(110deg)
+        saturate(100%)
+        brightness(100%)
+        drop-shadow(0px 1px 0px rgba(0,0,0,0.6))
 }
