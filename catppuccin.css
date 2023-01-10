@@ -201,6 +201,14 @@
 .theme-default .button.logo-button:focus,
 .theme-default .button.logo-button:hover{ background: var(--ctp-link-hover); }
 
+.theme-default .icon-button.retweet-icon.inactive {
+  color: var(--ctp-link-colour);
+}
+
+.theme-default .icon.button.retweet-icon.active {
+  color: var(--ctp-yellow);
+}
+
 .theme-default .icon-button.star-icon.active {
   color: var(--ctp-peach);
 }
@@ -225,6 +233,10 @@
 
 .theme-default .compose-form__publish-button-wrapper .button {
   background: var(--ctp-blue);
+}
+
+.theme-default .account__header__tabs_buttons .button {
+  background: var(--ctp-surface1);
 }
 
 .theme-default .compose-form .autosuggest-textarea__textarea::placeholder { color: var(--ctp-subtext0); }
