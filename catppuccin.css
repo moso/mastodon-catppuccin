@@ -199,7 +199,9 @@
 .theme-default .button:hover,
 .theme-default .button.logo-button:active,
 .theme-default .button.logo-button:focus,
-.theme-default .button.logo-button:hover{ background: var(--ctp-link-hover); }
+.theme-default .button.logo-button:hover {
+  background: var(--ctp-link-hover);
+}
 
 .theme-default .icon-button.retweet-icon.inactive {
   color: var(--ctp-link-colour);
@@ -235,7 +237,7 @@
   background: var(--ctp-blue);
 }
 
-.theme-default .account__header__tabs_buttons .button {
+.theme-default .button--with-bell {
   background: var(--ctp-surface1);
 }
 
