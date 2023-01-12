@@ -43,6 +43,10 @@
     color: var(--ctp-text);
 }
 
+.columns-area__panels {
+  background: var(--ctp-crust);
+}
+
 
 .theme-default .account__header__bio .account__header__fields dt,
 .theme-default .account__section-headline a.active,
@@ -69,7 +73,7 @@
 .theme-default .account .account__display-name,
 .theme-default .search__input,
 .theme-default .search__input:focus,
-.theme-default .account__header__fields dt { color: var(--ctp-subtext0); }
+.theme-default .account__header__fields dt { color: var(--ctp-subtext2); }
 
 
 .theme-default .account__header__tabs__name h1,
@@ -85,9 +89,9 @@
 .theme-default .public-layout .public-account-bio .account__header__fields a,
 .theme-default .column-header__back-button,
 .theme-default .notification__message .fa,
-.theme-default .navigation-bar strong,
-.theme-default .reply-indicator__content a.unhandled-link,
-.theme-default .status__content a.unhandled-link { color: var(--ctp-link-colour); }
+.theme-default .navigation-bar strong {
+  color: var(--ctp-link-colour);
+}
 
 
 .theme-default .icon-button:active,
@@ -220,9 +224,13 @@
 
 .theme-default .compose-form .compose-form__modifiers,
 .theme-default .compose-form .autosuggest-textarea__textarea,
-.theme-default .compose-form .spoiler-input__input,
-.theme-default .column-link {
+.theme-default .compose-form .spoiler-input__input {
   background: var(--ctp-surface1);
+  color: var(--ctp-text);
+}
+
+.theme-default .column-link {
+  background: var(--ctp-surface0);
   color: var(--ctp-text);
 }
 
@@ -255,24 +263,41 @@
 
 /* boosts */
 button.icon-button i.fa-retweet,
-.notification__message .fa.fa-retweet,
-.icon-button:hover .fa-retweet
+.notification__message .fa.fa-retweet
 {
-  filter: sepia(100%)
-        hue-rotate(110deg)
-        saturate(100%)
-        brightness(100%)
+  filter: sepia(1)
+        saturate(20%)
+        brightness(2)
         drop-shadow(0px 1px 0px rgba(0,0,0,0.6))
 }
 
 /* recolor boosts (preserve animation, unthemeable default state */
 
-/*button.icon-button:hover i.fa-retweet,*/
 .no-reduce-motion button.icon-button.active i.fa-retweet
 {
     filter: sepia(100%)
         hue-rotate(110deg)
-        saturate(100%)
+        saturate(150%)
         brightness(100%)
         drop-shadow(0px 1px 0px rgba(0,0,0,0.6))
+}
+
+.theme-default .reply-indicator__content a.unhandled-link,
+.theme-default .status__content a.unhandled-link {
+  color: var(--ctp-peach);
+}
+.theme-default .reply-indicator__content a,
+.theme-default .status__content a {
+  color: var(--ctp-lavender);
+}
+.theme-default .navigation-panel {
+  background: var(--ctp-surface0);
+}
+.theme-default .sign-in-banner .button,
+.theme-default .server-banner .button,
+.theme-default .poll .button {
+  background: var(--ctp-blue);
+}
+.theme-default .poll .button:disabled {
+  color: var(--ctp-crust);
 }
