@@ -43,7 +43,7 @@
     color: var(--ctp-text);
 }
 
-.columns-area__panels {
+.theme-default .columns-area__panels {
   background: var(--ctp-crust);
 }
 
@@ -262,8 +262,8 @@
 .theme-default .nothing-here { box-shadow: none; }
 
 /* boosts */
-button.icon-button i.fa-retweet,
-.notification__message .fa.fa-retweet
+.theme-default button.icon-button i.fa-retweet,
+.theme-default .notification__message .fa.fa-retweet
 {
   filter: sepia(1)
         saturate(20%)
@@ -295,9 +295,16 @@ button.icon-button i.fa-retweet,
 }
 .theme-default .sign-in-banner .button,
 .theme-default .server-banner .button,
-.theme-default .poll .button {
+.theme-default .poll .button,
+.theme-default .simple_form .button,
+.theme-default .action-buttons .button,
+.theme-default .content__heading__row .button {
   background: var(--ctp-blue);
 }
 .theme-default .poll .button:disabled {
   color: var(--ctp-crust);
+}
+.theme-default .link-footer p,
+.theme-default .link-footer a {
+  color: var(--ctp-peach);
 }
