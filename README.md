@@ -1,5 +1,9 @@
 # mastodon-catppuccin
-A work-in-progress dark catppuccin theme for my Mastodon instance, https://dmv.community. Using the "macchiato" color palette.
+A work-in-progress dark catppuccin theme for my Mastodon instance, https://mastodon.moso.dev. Using the "mocha" color palette.
+
+Forked from:
+
+https://github.com/jcrabapple/mastodon-catppuccin
 
 Based on:
 
